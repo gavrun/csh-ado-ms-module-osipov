@@ -1,0 +1,17 @@
+sqlmetal /server:MSI /database:Northwind /code:"c:\Northwind.cs" /language:csharp /sprocs /functions /pluralize
+
+
+
+**********************************************************************
+** Visual Studio 2022 Developer PowerShell v17.13.4
+** Copyright (c) 2022 Microsoft Corporation
+**********************************************************************
+PS C:\> sqlmetal /server:MSI /database:Northwind /code:"c:\Northwind.cs" /language:csharp /sprocs /functions /pluralize
+
+Microsoft (R) Database Mapping Generator version 4.8.3928.0
+for Microsoft (R) .NET Framework version 4.8
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Warning DBML1008: Mapping between DbType 'Decimal(38,2)' and Type 'System.Decimal' in Column 'TotalPurchase' of Type 'SalesByCategoryResult' may cause data loss when loading from the database.
+
+PS C:\> 
